@@ -263,7 +263,7 @@ section {
 
 .hero-image-wrap {
   width: clamp(140px, 18vw, 220px);
-  aspect-ratio: 3 / 4;
+  height: clamp(180px, 24vw, 290px);
   border-radius: 18px;
   overflow: hidden;
   border: 1px solid var(--border-subtle);
@@ -293,6 +293,7 @@ section {
 
   .hero-image-wrap {
     width: clamp(110px, 28vw, 160px);
+    height: clamp(145px, 38vw, 215px);
   }
 }
 
